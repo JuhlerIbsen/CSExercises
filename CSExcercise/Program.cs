@@ -1,4 +1,4 @@
-﻿using CSExcercise.excercises;
+﻿using CSExcercise.excercises.basic;
 using System;
 using System.Collections.Generic;
 
@@ -21,8 +21,10 @@ namespace CSExcercise
             // Run all the initialized exercises.
             runAllExercises();
 
-            // Pause the application.
+            // Show user message on how to stop application.
             Console.WriteLine("Press enter to end the application...");
+            
+            // Pause the application.
             Console.ReadLine();
         }
 
@@ -37,6 +39,7 @@ namespace CSExcercise
             exercises.Add(new FirstBasicExercise("PrintName"));
             exercises.Add(new SecondBasicExercise("Sum of two integers"));
             exercises.Add(new ThirdBasicExercise("Divide two numbers."));
+            exercises.Add(new FourthBasicExercise("Different operators."));
         }
 
         /**

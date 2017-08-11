@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSExcercise.excercises
+namespace CSExcercise.excercises.basic
 {
     class FirstBasicExercise : Exercise
     {
