@@ -30,7 +30,12 @@ namespace CSExcercise
          **/
         private static void initializeExercises()
         {
+            // 1. on the list for the CS program.
             exercises.Add(new FirstExercise("PrintName"));
+
+            // 2. on the list for the CS program.
+            exercises.Add(new SecondExercise("Sum of two integers"));
+
         }
 
         /**
@@ -41,10 +46,7 @@ namespace CSExcercise
             foreach (Exercise excercise in exercises)
             {
                 // Run the exercise.
-                excercise.doExercise();
-
-                // Indicate end of exercise.
-                Console.WriteLine("\n --- END --- \n");
+                excercise.runExercise();
             }
         }
     }

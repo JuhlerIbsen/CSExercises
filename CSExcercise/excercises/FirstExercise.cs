@@ -6,14 +6,13 @@ namespace CSExcercise.excercises
 {
     class FirstExercise : Exercise
     {
- 
+
         /**
          * FirstExercise Constructor.
          **/
         public FirstExercise(string title) : base(title)
         {
         }
-
 
         /**
          * Write a C# Sharp program to print Hello and your name in a separate line. Go to the editor

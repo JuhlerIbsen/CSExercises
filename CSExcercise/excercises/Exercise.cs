@@ -6,14 +6,15 @@ namespace CSExcercise
 {
     abstract class Exercise
     {
+        // I want propertise to start with a capital letter.
+        public string Title { get; set; }
 
         /**
          * Exercise Constructor.
-         **/
+         **/ 
         public Exercise(string title)
         {
-            // Print title of the exercise.
-            Console.WriteLine($"--- { title } --- \n");
+            Title = title;
         }
 
         /**
@@ -21,7 +22,14 @@ namespace CSExcercise
          **/
         public void runExercise()
         {
+            // Show title of exercise.
+            Console.WriteLine($"--- { Title } --- \n");
+
+            // Do the exercise.
             doExercise();
+
+            // Show end of exercise.
+            Console.WriteLine("\n --- END --- \n");
         }
 
         /**
