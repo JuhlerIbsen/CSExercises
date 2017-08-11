@@ -40,6 +40,7 @@ namespace CSExcercise
             exercises.Add(new SecondBasicExercise("Sum of two integers"));
             exercises.Add(new ThirdBasicExercise("Divide two numbers."));
             exercises.Add(new FourthBasicExercise("Different operators."));
+            exercises.Add(new FifthBasicExercise("Swap numbers"));
         }
 
         /**
