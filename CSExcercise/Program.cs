@@ -41,6 +41,7 @@ namespace CSExcercise
             exercises.Add(new ThirdBasicExercise("Divide two numbers."));
             exercises.Add(new FourthBasicExercise("Different operators."));
             exercises.Add(new FifthBasicExercise("Swap numbers"));
+            exercises.Add(new SixthBasicExercise("Multiply three numbers"));
         }
 
         /**
