@@ -36,6 +36,9 @@ namespace CSExcercise
             // 2. on the list for the CS program.
             exercises.Add(new SecondExercise("Sum of two integers"));
 
+            // 3. on the list for the CS program.
+            exercises.Add(new ThirdExercise("Divide two numbers."));
+
         }
 
         /**
