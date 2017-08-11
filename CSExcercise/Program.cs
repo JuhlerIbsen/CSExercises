@@ -15,36 +15,34 @@ namespace CSExcercise
          **/
         static void Main(string[] args)
         {
-            // Initialize all the exercises.
-            initializeExercises();
+            // Initialize the basic exercises 1 - 20.
+            initializeBasicExercises();
 
             // Run all the initialized exercises.
             runAllExercises();
 
             // Pause the application.
+            Console.WriteLine("Press enter to end the application...");
             Console.ReadLine();
         }
 
         /**
-         * Initialize the exercises, as requested by the teacher.
-         **/
-        private static void initializeExercises()
+        * http://www.w3resource.com/csharp-exercises/basic/
+        * These are some of the exercises I'm told to do by my school.
+        * Need to do exercise 1 - 20.
+        * 
+        **/
+        private static void initializeBasicExercises()
         {
-            // 1. on the list for the CS program.
-            exercises.Add(new FirstExercise("PrintName"));
-
-            // 2. on the list for the CS program.
-            exercises.Add(new SecondExercise("Sum of two integers"));
-
-            // 3. on the list for the CS program.
-            exercises.Add(new ThirdExercise("Divide two numbers."));
-
+            exercises.Add(new FirstBasicExercise("PrintName"));
+            exercises.Add(new SecondBasicExercise("Sum of two integers"));
+            exercises.Add(new ThirdBasicExercise("Divide two numbers."));
         }
 
         /**
          * Run all the initialized exercises.
          **/
-        private static void runAllExercises()
+            private static void runAllExercises()
         {
             foreach (Exercise excercise in exercises)
             {

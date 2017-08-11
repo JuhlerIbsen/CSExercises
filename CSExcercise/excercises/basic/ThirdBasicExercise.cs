@@ -4,12 +4,12 @@ using System.Text;
 
 namespace CSExcercise.excercises
 {
-    class ThirdExercise : Exercise
+    class ThirdBasicExercise : Exercise
     {
         /**
          * ThirdExercise Constructor.
          **/
-        public ThirdExercise(string title) : base(title)
+        public ThirdBasicExercise(string title) : base(title)
         {
         }
 
