@@ -24,7 +24,7 @@ namespace CSExcercise.excercises
             // My name.
             string myName = "Michael Ibsen";
 
-            Console.WriteLine($"Hello: { myName }");
+            Console.WriteLine($"Hello: \n { myName }");
 
             
         }
