@@ -17,7 +17,7 @@ namespace CSExcercise.excercises.basic
         /**
          * Write a C# Sharp program to print the output of multiplication of three numbers which will be entered by the user.
          **/
-        public override void doExercise()
+        public override void DoExercise()
         {
 
             Console.WriteLine("Write integer into variable x");
@@ -30,14 +30,14 @@ namespace CSExcercise.excercises.basic
             int z = int.Parse(Console.ReadLine());
 
             // Multiply them all.
-            multiplyThreeNumbers(x, y, z);
+            MultiplyThreeNumbers(x, y, z);
             
         }
 
         /**
          * 
          **/
-        private void multiplyThreeNumbers(int x, int y, int z)
+        private void MultiplyThreeNumbers(int x, int y, int z)
         {
             Console.WriteLine($"Result: { x } * { y } * {z} = {x * y * z}");
         }

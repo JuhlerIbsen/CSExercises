@@ -20,13 +20,13 @@ namespace CSExcercise
         /**
          * Print out the exercise that the teachers made us do.
          **/
-        public void runExercise()
+        public void RunExercise()
         {
             // Show title of exercise.
             Console.WriteLine($"--- { Title } --- \n");
 
             // Do the exercise.
-            doExercise();
+            DoExercise();
 
             // Show end of exercise.
             Console.WriteLine("\n --- END --- \n");
@@ -35,6 +35,6 @@ namespace CSExcercise
         /**
          * Whatever in this exercise will be ran.
          **/
-        public abstract void doExercise();
+        public abstract void DoExercise();
     }
 }

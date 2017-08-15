@@ -18,7 +18,7 @@ namespace CSExcercise.excercises.basic
          * Write a C# Sharp program to print Hello and your name in a separate line. Go to the editor
          * Expected Output : Hello: Alexandra Abramov
          **/
-        public override void doExercise()
+        public override void DoExercise()
         {
 
             // My name.

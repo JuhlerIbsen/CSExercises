@@ -16,10 +16,10 @@ namespace CSExcercise
         static void Main(string[] args)
         {
             // Initialize the basic exercises 1 - 20.
-            initializeBasicExercises();
+            InitializeBasicExercises();
 
             // Run all the initialized exercises.
-            runAllExercises();
+            RunAllExercises();
 
             // Show user message on how to stop application.
             Console.WriteLine("Press enter to end the application...");
@@ -34,7 +34,7 @@ namespace CSExcercise
         * Need to do exercise 1 - 20.
         * 
         **/
-        private static void initializeBasicExercises()
+        private static void InitializeBasicExercises()
         {
             exercises.Add(new FirstBasicExercise("PrintName"));
             exercises.Add(new SecondBasicExercise("Sum of two integers"));
@@ -47,12 +47,12 @@ namespace CSExcercise
         /**
          * Run all the initialized exercises.
          **/
-            private static void runAllExercises()
+            private static void RunAllExercises()
         {
             foreach (Exercise excercise in exercises)
             {
                 // Run the exercise.
-                excercise.runExercise();
+                excercise.RunExercise();
             }
         }
     }

@@ -16,18 +16,18 @@ namespace CSExcercise.excercises.basic
         /**
          * Write a C# Sharp program to print the result of the specified operations.
          **/
-        public override void doExercise()
+        public override void DoExercise()
         {
-            calculate(-1+4*6);
-            calculate((35+5)%7);
-            calculate(14 + (-4) * 6 / 11);
-            calculate(2+15/6*1-7%2);
+            Calculate(-1+4*6);
+            Calculate((35+5)%7);
+            Calculate(14 + (-4) * 6 / 11);
+            Calculate(2+15/6*1-7%2);
         }
 
         /**
          * Print calculation.
          **/
-        private void calculate(int math)
+        private void Calculate(int math)
         { 
             Console.WriteLine($"Value: { math }");
         }

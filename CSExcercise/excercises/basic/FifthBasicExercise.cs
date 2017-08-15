@@ -14,7 +14,7 @@ namespace CSExcercise.excercises.basic
         /**
          * Write a C# Sharp program to swap two numbers.
          **/
-        public override void doExercise()
+        public override void DoExercise()
         {
 
             // Message to the user.
@@ -24,14 +24,14 @@ namespace CSExcercise.excercises.basic
             int userFirstNumber  = int.Parse(Console.ReadLine());
             int userSecondNumber = int.Parse(Console.ReadLine());
 
-            swapNumber(userFirstNumber, userSecondNumber);
+            SwapNumber(userFirstNumber, userSecondNumber);
             
         }
 
         /**
          * Swap two integers.
          **/
-        private void swapNumber(int x, int y)
+        private void SwapNumber(int x, int y)
         {
 
             Console.WriteLine($"Numbers to swap: x = { x } AND y = { y }.");

@@ -16,15 +16,15 @@ namespace CSExcercise.excercises.basic
         /**
          * Write a C# Sharp program to print the result of dividing two numbers.
          **/
-        public override void doExercise()
+        public override void DoExercise()
         {
-            Console.WriteLine($"5 / 3 = { divide(5, 3) }");
+            Console.WriteLine($"5 / 3 = { Divide(5, 3) }");
         }
 
         /**
          * Divide two integers.
          **/ 
-        private double divide(double x, double y)
+        private double Divide(double x, double y)
         {
             return x / y;
         }
